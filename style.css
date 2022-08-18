@@ -1,0 +1,50 @@
+body {
+	margin: 0px 0px;
+	background-color: rgb(235, 235, 235);
+}
+
+.title {
+	background-color: black;
+	color: white;
+	font-size: 50px;
+	font-family: "Courier New", monospace;
+	text-align: center;
+	margin: 0px 0px;
+	padding: 15px 0px;
+}
+
+.list {
+	margin: 5px 5px;
+	padding: 10px 0px;
+	background-color: white;
+	width: 600px;
+}
+
+.list.index {
+	border-style: double double double solid;
+	border-color: black;
+	border-width: 2px 2px 2px 15px;
+	border-radius: 3px;
+}
+
+.list ul{
+	margin: 0px;
+}
+
+.list .list-item {
+	padding: 10px;
+	margin: 7px 0px;
+	background-color: black;
+	min-width: 300px;
+	text-align: left;
+	border-radius: 5px;
+	border-style: none;
+}
+
+.list .list-item a {
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: "Lucida Console", monospace;
+}
