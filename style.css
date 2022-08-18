@@ -3,14 +3,45 @@ body {
 	background-color: rgb(235, 235, 235);
 }
 
-.title {
+.title,
+.subtitle {
 	background-color: black;
 	color: white;
-	font-size: 50px;
 	font-family: "Courier New", monospace;
 	text-align: center;
-	margin: 0px 0px;
 	padding: 15px 0px;
+}
+
+.title {
+	font-size: 50px;
+	margin: 0px 0px;
+}
+
+.subtitle {
+	font-size: 25px;
+	width: 600px;
+	margin: 0px 7px;
+}
+
+.img {
+	margin: 10px 5px 0px 5px;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: black;
+	width: 600px;
+	height: auto;
+}
+
+.description {
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	border-style: none none none solid;
+	border-color: black;
+	border-width: 15px;
+	width: 575px;
+	margin: 7px;
+	padding: 5px 0px 5px 10px;
+	background-color: white;
 }
 
 .list {
@@ -27,13 +58,30 @@ body {
 	border-radius: 3px;
 }
 
+.list.ingredients,
+.list.steps {
+	border-width: 3px;
+	border-color: black;
+	font-family: "Verdana", sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.list.ingredients {
+	border-style: double;
+}
+
+.list.steps {
+	border-style: dotted;
+}
+
 .list ul{
 	margin: 0px;
 }
 
-.list .list-item {
+.index-button {
 	padding: 10px;
-	margin: 7px 0px;
+	margin: 7px 5px;
 	background-color: black;
 	min-width: 300px;
 	text-align: left;
@@ -41,7 +89,7 @@ body {
 	border-style: none;
 }
 
-.list .list-item a {
+.index-button a {
 	color: white;
 	font-size: 17px;
 	font-weight: bold;

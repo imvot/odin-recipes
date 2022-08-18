@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Smoothie Recipe</title>
+		<link rel="stylesheet" href="../style.css">
 	</head>
 
 	<body>
@@ -15,25 +16,30 @@
 			Ordered list of steps
 			Back to index link
 		-->
-		<h1>Raspberry Blackberry Smoothie</h1>
-		<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F3d200e940a92b5955ebc792cd421f22f%2F1660064844DSC_2204%20(2).2.jpg&w=595&h=398&c=sc&poi=face&q=60" alt="Pink Smoothie with some fruits on top served in a glass">
-		<h2>A delicious smoothie!</h2>
-		<p>
+		<h1 class="title">Raspberry Blackberry Smoothie</h1>
+		<img class="img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F3d200e940a92b5955ebc792cd421f22f%2F1660064844DSC_2204%20(2).2.jpg&w=595&h=398&c=sc&poi=face&q=60" alt="Pink Smoothie with some fruits on top served in a glass">
+		<h2 class="subtitle">A delicious smoothie!</h2>
+		<p class="description">
 		Very tasty cold beverage for hot days or just to start the day on the right foot.
 		</p>
-		<ul>
-			<li>1 Small Banana</li>
-			<li>1/2 cup blackberries</li>
-			<li>1 cup fresh raspberries</li>
-			<li>1(6 ounces) container vanilla yogurt</li>
-			<li>1 tablespoon honey</li>
-			<li>4 ice cubes</li>
-		</ul>
-		<ol>
-			<li>Place banana, blackberries, raspberries, yogurt, honey, and ice cubes into a blender.</li>
-			<li>Blend until smooth.</li>
-		</ol>	
-		<a href="../index.html">Back to Index</a>
+		<div class="list ingredients">
+			<ul>
+				<li>1 Small Banana</li>
+				<li>1/2 cup blackberries</li>
+				<li>1 cup fresh raspberries</li>
+				<li>1(6 ounces) container vanilla yogurt</li>
+				<li>1 tablespoon honey</li>
+				<li>4 ice cubes</li>
+			</ul>
+		</div>
+		<div class="list steps">
+			<ol>
+				<li>Place banana, blackberries, raspberries, yogurt, honey, and ice cubes into a blender.</li>
+				<li>Blend until smooth.</li>
+			</ol>	
+		</div>
+		<!-- &lt; allow to escape '<' -->
+		<button class="index-button"><a href="../index.html">&lt;&lt; Back to Index</a></button>
 
 	</body>
 
