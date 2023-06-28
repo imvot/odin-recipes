@@ -1,6 +1,9 @@
 body {
 	margin: 0px 0px;
 	background-color: rgb(235, 235, 235);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .title,
@@ -44,9 +47,22 @@ body {
 	background-color: white;
 }
 
+.content,
+.index-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
 .list {
 	margin: 5px 5px;
-	padding: 10px 0px;
+	padding: 10px 24px;
 	background-color: white;
 	width: 600px;
 }
@@ -79,6 +95,12 @@ body {
 	margin: 0px;
 }
 
+.index-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .index-button {
 	padding: 10px;
 	margin: 7px 5px;
@@ -87,6 +109,8 @@ body {
 	text-align: left;
 	border-radius: 5px;
 	border-style: none;
+    color: white;
+    display: flex;
 }
 
 .index-button a {
@@ -95,4 +119,7 @@ body {
 	font-weight: bold;
 	text-decoration: none;
 	font-family: "Lucida Console", monospace;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
